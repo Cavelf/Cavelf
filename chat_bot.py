@@ -31,11 +31,3 @@ for event in longpoll.listen():
         print('Текст сообщения: ' + str(request))
         print(user_id)
 
-#if __name__ == "__main__":
-#    token_bot = os.getenv('token_bot')
-#    token_search = os.getenv('token_search')
-#    token_bot = VKinder_bot(token_user, token_search)#
-
-#    vk = vk_api.VkApi(token = token_user)
-#    longpoll = VkLongPoll(vk)
-#    bot.start()
